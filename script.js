@@ -14,24 +14,24 @@ confirmNumbers = window.confirm("Would you like to use numbers?")
 confirmSpecialChars = window.confirm("Would you like to use special characters?")
 
 
-var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&\"\\\'*(){}[]:;|<,>.~`";
+// var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&\"\\\'*(){}[]:;|<,>.~`";
 
-var charactersArray = characters.split("")
+// var charactersArray = characters.split("")
 
-var lowercaseLetters = charactersArray.slice(0,26);
-var uppercaseLetters = charactersArray.slice(26,52);
-var numbers = charactersArray.slice(52,62);
-var specialCharacters = charactersArray.slice(62,87); 
+// var lowercaseLetters = charactersArray.slice(0,26);
+// var uppercaseLetters = charactersArray.slice(26,52);
+// var numbers = charactersArray.slice(52,62);
+// var specialCharacters = charactersArray.slice(62,87); 
 
-console.log(lowercaseLetters)
-console.log(uppercaseLetters)
-console.log(numbers)
-console.log(specialCharacters)
-console.log(charactersArray)
+// console.log(lowercaseLetters)
+// console.log(uppercaseLetters)
+// console.log(numbers)
+// console.log(specialCharacters)
+// console.log(charactersArray)
 
-// var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "k", "l", "m", "n", "o", "p", "q","r","s", "t", "u", "v", "w", "x", "y", "z"]
-// var numbers = [0,1,2,3,4,5,6,7,8,9]
-// var specialCharacters = ["~", "`", "!", "@", "#", "$","%","^", "&","*", "(",")","-","_","+","=","{","}",":",";","\"","\'","\\","|","<",",",">",".","?","/"]
+var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "k", "l", "m", "n", "o", "p", "q","r","s", "t", "u", "v", "w", "x", "y", "z"]
+var numbers = [0,1,2,3,4,5,6,7,8,9]
+var specialCharacters = ["~", "`", "!", "@", "#", "$","%","^", "&","*", "(",")","-","_","+","=","{","}",":",";","\"","\'","\\","|","<",",",">",".","?","/"]
 
 
 
